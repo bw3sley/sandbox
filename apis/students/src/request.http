@@ -1,0 +1,29 @@
+POST http://localhost:3000/new
+Content-Type: application/json
+
+{
+    "name": "w3sLeYY",
+    "email": "w3sLeYY@example.com"
+}
+
+###
+
+GET http://localhost:3000
+
+###
+
+GET http://localhost:3000/c64670d3-24dd-4fa3-b784-6309e2deee0c
+
+###
+
+PUT http://localhost:3000/update/c64670d3-24dd-4fa3-b784-6309e2deee0c
+Content-Type: application/json
+
+{
+    "name": "Wesley",
+    "email": "wesley@aptiv.com"
+}
+
+###
+
+DELETE http://localhost:3000/delete/5d7d2f6c-7a8e-47d6-85a0-51c38f9beda6
